@@ -30,8 +30,6 @@ p{
 }
 
 .osoba{
-	display: flex;
-	flex-grow: 1;
 	border: 1px solid;
 	border-color: rgb(158, 155, 155);
 	box-shadow: 0 2px 4px;
@@ -43,18 +41,6 @@ p{
 .foto img{
 	border-radius: 50%;
 	margin: 20px;
-}
-
-@media screen and (max-width: 540px){
-	.tym {
-		display: flex;
-		flex-wrap: wrap;
-		gap: 20px;
-	}
-	.osoba{
-		display: flex;
-		flex: 1 1 50%;
-	}
 }
 
 @media screen and (min-width: 540px){
@@ -72,7 +58,6 @@ p{
 	
 @media screen and (min-width: 940px){
 	.tym{
-		display: flex;
 		flex-wrap: nowrap;
 	}
 	.osoba{
